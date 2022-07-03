@@ -9,6 +9,7 @@ import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
 import Events from '../components/Events'
 
+
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -19,6 +20,7 @@ export default function Home() {
       </Head>
       <Navbar/>
       <Hero />
+     
      <MissionVision/>
      <Events/>
      <OurReach/>
